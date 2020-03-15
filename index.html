@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Creative Page Scroll Progress Bar</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="processbar"></div>
+    <section>
+      <h2>Creative Page Scroll Progress Bar</h2>
+      <p>
+Europe, according to WHO, is the new epicentre of COVID-19 pandemic today. Of that epicentre, Italy is the worst affected followed by Spain. In an unprecedented measure, the former, known to be one of the most gregarious, warm and people-friendly country, closed itself down and urged people to remain confined to their homes.
+This virus is reported to have come to India from a group of Italian tourists. Visitors from Europe, especially Italy, have been banned in the US and some other countries. Bangladesh will do the same effective March 16 midnight, according to our foreign minister.
+Two new COVID-19 cases surfaced on Saturday in Dhaka, one coming from Italy and the other from Germany. And yet, on the same day, 142 returnees from Italy, the country worst affected by coronavirus, the country that has "locked itself" in, were allowed to go home from the Ashkona Haji camp on the condition of self-isolation after a protest breaking all health protocols set by the government.<br>
+Why? Because they refused to stay after being taken from the airport to the Ashkona Hajj camp for the 14-day mandatory quarantine announced only hours before by the health minister himself.<br>
+
+It may be mentioned here that the departure of this group of Bangladeshis from Venice, among the worst-affected areas within Italy, was announced in the social media which, after due verification, was posted on The Daily Star online. So the authorities had ample time to prepare themselves, with necessary medical facilities, to expertly handle the arrival of these expatriate Bangladeshis.
+
+During the whole day's protest, relatives of the returnees were seen to freely mingle with their families without any precautionary measure of any kind. To the best of our knowledge, no effort was made to collect blood samples from any of the returnees. Prof Abul Kalam Azad, director general of the Directorate General of Health Services, told reporters that these returnees were allowed to go because none of them had any symptoms. <br>
+
+What about the 14-day incubation period? Do we have to tell him that symptoms may not appear till later, that meanwhile these people, if infected, will give the virus to many they come into contact with.
+
+While the whole world is trying to isolate those coming from affected areas, identify those infected through tests, quarantine them and then treat them, we are doing the reverse.
+
+These 142 returnees who were already identified as coming from the most affected country were isolated as a group at the airport. But instead of testing them all for possible infection, the authorities have allowed them to mingle with their families and as such have put every one near them at risk.<br>
+
+Let's examine the scene of "self-quarantine". According to the civil surgeon (the chief medical officer of a district) of Manikganj, 221 expatriates were directed to remain in self-quarantine. Our reporter found during a visit last Friday that a returnee from Saudi Arabia was moving around freely. "I don't have any symptoms so I roam around".
+
+Another youth from the same village who returned from one of the Gulf States seven days ago was feeding his cattle and tending to other chores along with his family members. The civil surgeon was not aware that these two young returnees were roaming around. Was he aware of what any of the other 221 expats in his district were doing? Was there any mechanism in place for him to monitor their activities? Does he have enough staff to help him do his job?<br>
+
+There were 81 such cases in Mymensingh. Does the civil surgeon of that district have any idea what these 81 returnees were doing? The same question can be asked about the 2,314 expatriates, according to IEDCR as of yesterday, who have been asked to remain in "self-quarantine".<br>
+
+On monitoring those under self-quarantine, IEDCR Director Dr Meerjady Sabrina Flora told the press that directives were given to "civil surgeons to take help from local administration to force the expatriates to stay in home quarantine properly".<br>
+
+Given our bureaucracy and the speed of its work, nothing is likely to happen soon and meanwhile, if any of these returnees turn out to be actually infected, they will have spread the virus far and wide.
+
+Then again, what does being in self-quarantine actually mean? According to Prof Muzaherul Huq, former WHO regional adviser for Southeast Asia, a person in self-quarantine must stay inside a room with an attached toilet and must not come closer than six feet to anyone else. People supplying him food must maintain that distance alongside using protective gears. Does it sound like that's what the "self-quarantined" are doing?<br>
+
+Let us return to the story of the 142 returnees from Italy. During their daylong demonstration, police were seen, in attempting to maintain peace, jostling with them, often touching them, pushing them back and even trying to calm them by embracing them -- all without any protective gears or any apparent awareness that they might themselves become infected. According to reports, some of the returnees actually slipped away and vanished during the demonstration, going who knows where?<br>
+
+We know that the whole world is reeling under the impact of COVID-19 and so are we. We are also aware that all the latest technology available to fight this virus is not at hand. We can also live with the fact that we may not be able to reach the nook and corner of the country to fight it.
+
+But can we not expect more efficiency at our biggest international airport which is our gateway to the world. Why should a 14-day mandatory quarantine be announced and within hours see its breach and be turned into a farce.
+
+For a country as densely populated as ours, why should we have only one COVID-19 testing centre, whose director, Meerjady Sabrina Flora, urged people yesterday not to come to the centre but telephone them if they suspect coronavirus infection and wait for its team to come to attend.<br>
+
+Isn't the whole world doing the opposite: urging everyone to get tested and to seek medical assistance at the slightest sign of infection instead of urging them to stay home?
+
+Except for "awareness" building, which amounts to some TV, online, newspaper and local loudspeaker messaging, nothing much appears to have happened except proclaiming that we are fully ready. In this mega city of ours, with nearly 20 million inhabitants, we still don't know, except IEDCR, where to go to test for coronavirus. In most hospitals, the doctors and nurses shy away from treating patients they remotely suspect to be so infected.<br>
+
+Meanwhile, our ever present media-friendly communication minister has once again pronounced on shutting down schools (shouldn't the education minister be speaking on this topic), "Government will take all necessary steps including shutting down schools and colleges if situation arises." Won't it be too late if the "situation" might have already arisen? Shouldn't action precede the "situation"?
+
+What is obvious is that there is tremendous lack of coordination between the various branches of the government and a serious disconnect with the experts. The health directorate, headed by its DG, is virtually helpless in dealing with the parent ministry whose bureaucratic methods are delaying everything. The ministry looks up to the PMO for guidance which further lengthens the process. What is perhaps equally demoralising is the lack of cooperation between the bureaucrats and the professionals  and experts who seem to have very little say or impact on the matter. <br>
+
+Need we say more?
+
+    </section>
+
+
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+      $(window).scroll(function(){
+        var scroll = $(window).scrollTop(),
+        dh = $(document).height(),
+        wh = $(window).height();
+        scrollPercent = (scroll / (dh-wh)) * 100;
+        $('#processbar').css('height', scrollPercent + '%');
+      })
+
+    </script>
+
+  </body>
+</html>
